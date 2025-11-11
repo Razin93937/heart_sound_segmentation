@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+model/best_models/*
+!model/best_models/.gitkeep
+
+.DS_Store

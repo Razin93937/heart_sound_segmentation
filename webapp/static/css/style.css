@@ -1,0 +1,49 @@
+body {
+    background-color: #757f9a;
+    background-image: linear-gradient(147deg, #FFEBC6 0%, #F194B4 100%);
+}
+
+.s1 {
+    background-color: #ffffff70;
+    color: aliceblue;
+}
+
+.s2 {
+    background-color: #fff20070;
+    color: aliceblue;
+}
+
+body.busy .spinner {
+    display: inline-block !important;
+}
+
+.waveform-container {
+    background-color: #34252F;
+}
+
+.wavesurfer-region {
+    z-index: -1;
+}
+
+#spinner {
+    display: none;
+}
+
+#audioupload {
+    opacity: 0;
+}
+
+#label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.table td {
+    text-align: center;
+}
+
+.table th {
+    text-align: center;
+}
