@@ -108,7 +108,7 @@ def hello():
 def get_models():
     models_dir = "model/best_models"
     if os.path.exists(models_dir):
-        models = [f for f in os.listdir(models_dir) if f.endswith(".keras")]
+        models = [f for f in os.listdir(models_dir) if f.endswith(".keras") or f.endswith(".h5")]
         return jsonify(models)
     return jsonify([])
 
